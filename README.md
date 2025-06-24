@@ -1,0 +1,1 @@
+# awslambda-hack-smartclip-ai
