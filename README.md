@@ -51,7 +51,7 @@ On average:
 | [Shark Tank US CUPBOP Are Asking For $1M From The Sharks.mp4](https://www.youtube.com/watch?v=MdA1JIUTEHc&t=5s) | [⚡ Cupbob_SharkTank_audience-Entertain_final.mp4](https://drive.google.com/file/d/1-0z0XSAeHv7d3sZH4AOvFZsWzfDJ7QXH/view?usp=drive_link) | Entertain | 14:02 min | 00:47 min | 94.42% |
 | [Shark Tank US CUPBOP Are Asking For $1M From The Sharks.mp4](https://www.youtube.com/watch?v=MdA1JIUTEHc&t=5s) | [⚡ Cupbob_SharkTank_audience-PromoteaProduct_final.mp4](https://drive.google.com/file/d/1u70_w96R39Umx3m4usTnSe7NRetj51KP/view?usp=drive_link) | Promote a Product | 14:02 min | 00:52 min | 93.82% |
 | [Shakira on Reclaiming Her Resilience in New Album After Ex-Husband, Cardi B Collab and NYC Surprise.mp4](https://www.youtube.com/watch?v=GPmnZdaa1bk) | [⚡ shakira_video_full_audience-Inspire_final.mp4](https://drive.google.com/file/d/1x8ubftd9_9xZdaFcVNwMkuRWOrCQ8WlJ/view?usp=drive_link) | Inspire | 11:13 min | 00:38 min | 94.35% |
-| [A Bidding War Breaks Out During Scrub Daddy's Pitch.mp4](https://www.youtube.com/watch?v=ae5MssJ8en4&t=11s) | [⚡ shark_tank_usa_audience-Inspire_final.mp4(https://drive.google.com/file/d/16p8r0DIX6f47n94nv794lSufikOa101Y/view?usp=drive_link) | Inspire | 12:20 min | 0:38 min | 	94.86% |
+| [A Bidding War Breaks Out During Scrub Daddy's Pitch.mp4](https://www.youtube.com/watch?v=ae5MssJ8en4&t=11s) | [⚡ shark_tank_usa_audience-Inspire_final.mp4](https://drive.google.com/file/d/16p8r0DIX6f47n94nv794lSufikOa101Y/view?usp=drive_link) | Inspire | 12:20 min | 0:38 min | 	94.86% |
 
 ##  🧠 LLM-Powered Intelligence
 
