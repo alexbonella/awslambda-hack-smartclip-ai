@@ -28,7 +28,7 @@ This tool reflects my passion for merging **AI + Cloud** to empower content crea
 | 🔤 [**Transcription**](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/scripts/lambda_functions/audio_transcribe.py) | Transcribes the video using Amazon Transcribe. |
 | ✨ [**AWS Bedrock Step**](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/scripts/lambda_functions/answer-bedrock.py) | Uses the transcript + Bedrock AI to extract key phrases and generate hashtags based on your selected **audience objective**  `["Entertain", "Educate", "Inspire", "Build Community", "Social Impact", "Promote a Product", "Showcase Expertise", "Awareness"]` |
 | 🎯 [**Highlight Clip Detection**](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/scripts/lambda_functions/video_clips.py) | After identifying key phrases based on the audience's intent, I use **`AWS Elemental MediaConvert`** to extract the most impactful video segments *`(this was the hardest part!)`*. |
-| 💬 [**New Subtitle Generation**]() | Generates new subtitles for the selected clip. |
+| 💬 [**New Subtitle Generation**](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/scripts/lambda_functions/little_video_subtitles.py) | Generates new subtitles for the selected clip. |
 | 📲 [**Final Output**](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/scripts/lambda_functions/hashtag_video.py) | Adds smart hashtag and delivers a ready-to-post video for your social media . 
 
 ## 💸 Pricing
@@ -51,7 +51,7 @@ On average:
 | [Shark Tank US CUPBOP Are Asking For $1M From The Sharks.mp4](https://www.youtube.com/watch?v=MdA1JIUTEHc&t=5s) | [⚡ Cupbob_SharkTank_audience-Entertain_final.mp4](https://drive.google.com/file/d/1-0z0XSAeHv7d3sZH4AOvFZsWzfDJ7QXH/view?usp=drive_link) | Entertain | 14:02 min | 00:47 min | 94.42% |
 | [Shark Tank US CUPBOP Are Asking For $1M From The Sharks.mp4](https://www.youtube.com/watch?v=MdA1JIUTEHc&t=5s) | [⚡ Cupbob_SharkTank_audience-PromoteaProduct_final.mp4](https://drive.google.com/file/d/1u70_w96R39Umx3m4usTnSe7NRetj51KP/view?usp=drive_link) | Promote a Product | 14:02 min | 00:52 min | 93.82% |
 | [Shakira on Reclaiming Her Resilience in New Album After Ex-Husband, Cardi B Collab and NYC Surprise.mp4](https://www.youtube.com/watch?v=GPmnZdaa1bk) | [⚡ shakira_video_full_audience-Inspire_final.mp4](https://drive.google.com/file/d/1x8ubftd9_9xZdaFcVNwMkuRWOrCQ8WlJ/view?usp=drive_link) | Inspire | 11:13 min | 00:38 min | 94.35% |
-| [A Bidding War Breaks Out During Scrub Daddy's Pitch.mp4](https://www.youtube.com/watch?v=ae5MssJ8en4&t=11s) | [⚡ shark_tank_usa_audience-Inspire_final.mp4]([videos/output/campaign_short.mp4](https://drive.google.com/file/d/16p8r0DIX6f47n94nv794lSufikOa101Y/view?usp=drive_link) | Inspire | 12:20 min | 0:38 min | 	94.86% |
+| [A Bidding War Breaks Out During Scrub Daddy's Pitch.mp4](https://www.youtube.com/watch?v=ae5MssJ8en4&t=11s) | [⚡ shark_tank_usa_audience-Inspire_final.mp4(https://drive.google.com/file/d/16p8r0DIX6f47n94nv794lSufikOa101Y/view?usp=drive_link) | Inspire | 12:20 min | 0:38 min | 	94.86% |
 
 ##  🧠 LLM-Powered Intelligence
 
