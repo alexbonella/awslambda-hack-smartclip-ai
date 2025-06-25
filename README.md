@@ -1,11 +1,12 @@
-# 🎬 Smart Clip AI – From Long Videos to Viral Shorts with AI
+# 🎬 Smart Clip AI – From Long Videos to Shareable Shorts with AWS & AI
 
 ⚡ **Smart Clip AI** is an intelligent, serverless video summarization app that transforms long-form videos into engaging short clips—tailored to your audience's goals. Whether you're aiming to **educate**, **entertain**, or **inspire**, Smart Clip AI makes your content short, sharp, and shareable.
 
 This tool reflects my passion for merging **AI + Cloud** to empower content creators through **automation and storytelling**.
 
 ## 🛠️ How It Works
-1. **Upload Video:** Drag and drop your video in the Streamlit app. It’s automatically uploaded to an **S3 Input Bucket**.
+
+1. **Upload Video:** Drag and drop your video into the Streamlit app. It’s automatically uploaded to an **S3 Input Bucket**.
 2. **Trigger the Magic:** An **EventBridge** rule triggers an **AWS Step Function** that orchestrates a pipeline of **`Lambda functions`**.
 3. **State Machine Workflow** :
    
@@ -14,6 +15,10 @@ This tool reflects my passion for merging **AI + Cloud** to empower content crea
    - Auto-generate short-form clips with captions and hashtags
    - Notify you when your clip is ready to post 💥
      
+## 🖼️ Demo Architecture
+
+![Smart Clip AI State Machine Diagram](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/images/New-Flow.gif)
+
 ## ⚙️ AWS Lambda Zone – Where the Magic Happens
 
 > Each function is optimized to handle a specific part of the pipeline with speed, precision, and scalability.
@@ -34,24 +39,19 @@ On average:
 
 > Efficient, scalable, and cost-friendly for creators and brands alike.
 
-## 🖼️ Demo Architecture
+## ![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png) Video Demo in Action
 
-![Smart Clip AI State Machine Diagram](https://github.com/alexbonella/awslambda-hack-smartclip-ai/blob/main/images/New-Flow.gif)
-
-## 🖼️ Video Demo in Action
-
-* [![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
+* [**Go To Demo**](https://youtu.be/owTl5Fg5GVU)
 
 ## 🎥 Example Runs
 
 | Input Long Video | Output Short Video | Audience Objective | Duration (Long) | Duration (Short) | Reduction (%) |
 |------------------|--------------------|--------------------|------------------|-------------------|----------------|
-| [🎞️ interview_full.mp4](videos/input/interview_full.mp4) | [⚡ interview_short.mp4](videos/output/interview_short.mp4) | Showcase Expertise | 12:00 min | 1:30 min | 87.5% |
-| [🎞️ product_demo_full.mp4](videos/input/product_demo_full.mp4) | [⚡ product_demo_short.mp4](videos/output/product_demo_short.mp4) | Promote a Product | 8:30 min | 1:10 min | 86.3% |
-| [🎞️ event_talk_full.mp4](videos/input/event_talk_full.mp4) | [⚡ event_talk_short.mp4](videos/output/event_talk_short.mp4) | Inspire | 15:00 min | 2:00 min | 86.7% |
-| [🎞️ vlog_day1_full.mp4](videos/input/vlog_day1_full.mp4) | [⚡ vlog_day1_short.mp4](videos/output/vlog_day1_short.mp4) | Entertain | 10:00 min | 1:20 min | 86.7% |
-| [🎞️ campaign_full.mp4](videos/input/campaign_full.mp4) | [⚡ campaign_short.mp4](videos/output/campaign_short.mp4) | Social Impact | 9:45 min | 1:15 min | 87.2% |
+| [Why AI Is Our Ultimate Test and Greatest Invitation.mp4](https://www.youtube.com/watch?v=6kPHnl-RsVI) | [⚡ Why_AI_Is_Our_Ultimate_Test_audience-SocialImpact_final.mp4](https://drive.google.com/file/d/1VqvoNLzrEV9f62s-6o-7Y60QR8TxK7u4/view?usp=drive_link) | Social Impact | 15:15 min | 1:00 min | 93.4% |
+| [Shark Tank US CUPBOP Are Asking For $1M From The Sharks.mp4](https://www.youtube.com/watch?v=MdA1JIUTEHc&t=5s) | [⚡ Cupbob_SharkTank_audience-Entertain_final.mp4](https://drive.google.com/file/d/1-0z0XSAeHv7d3sZH4AOvFZsWzfDJ7QXH/view?usp=drive_link) | Entertain | 14:02 min | 00:47 min | 94.42% |
+| [Shark Tank US CUPBOP Are Asking For $1M From The Sharks.mp4](https://www.youtube.com/watch?v=MdA1JIUTEHc&t=5s) | [⚡ Cupbob_SharkTank_audience-PromoteaProduct_final.mp4](https://drive.google.com/file/d/1u70_w96R39Umx3m4usTnSe7NRetj51KP/view?usp=drive_link) | Promote a Product | 14:02 min | 00:52 min | 93.82% |
+| [Shakira on Reclaiming Her Resilience in New Album After Ex-Husband, Cardi B Collab and NYC Surprise.mp4](https://www.youtube.com/watch?v=GPmnZdaa1bk) | [⚡ shakira_video_full_audience-Inspire_final.mp4](https://drive.google.com/file/d/1x8ubftd9_9xZdaFcVNwMkuRWOrCQ8WlJ/view?usp=drive_link) | Inspire | 11:13 min | 00:38 min | 94.35% |
+| [A Bidding War Breaks Out During Scrub Daddy's Pitch.mp4](https://www.youtube.com/watch?v=ae5MssJ8en4&t=11s) | [⚡ shark_tank_usa_audience-Inspire_final.mp4]([videos/output/campaign_short.mp4](https://drive.google.com/file/d/16p8r0DIX6f47n94nv794lSufikOa101Y/view?usp=drive_link) | Inspire | 12:20 min | 0:38 min | 	94.86% |
 
 ##  🧠 LLM-Powered Intelligence
 
@@ -70,8 +70,7 @@ This random selection helps experiment with tone, style, and semantic richness d
 
 ## 🎯 Why Smart Clip App?
 
-Because long content is valuable—but short content *wins* on social.  
-With Smart Clip AI, creators can **repurpose content**, grow audiences, and stay consistent—without spending hours editing.
+Because long content is valuable, but short content *wins* on social. With Smart Clip AI, creators can **repurpose content**, grow audiences, and stay consistent without spending hours editing.
 
 ## 🛠️ Built With
 
@@ -93,3 +92,11 @@ Hi, I’m Alex – Senior Data Engineer, AI Builder, and 4x **AWS Community Buil
 I specialize in designing intelligent, serverless, and scalable data solutions in the cloud. I'm also a **Udemy instructor** with two hands-on courses:
 - [**Build Your Data Engineer Portfolio – 4 Real-World Projects | 1.7K+ students**](https://www.udemy.com/course/crea-tu-portafolio-como-data-engineer-4-proyectos-reales-datexland/?couponCode=B91BB3D-JUNIO)
 - [**Streaming Data Analysis – Data Engineer Portfolio Project | 180+ students**](https://www.udemy.com/course/analisis-de-streaming-de-datos-portafolio-data-engineer/?couponCode=4CBC9B3-JUNIO)
+
+## Connect with me: 
+
+ [![LinkedIn](https://img.shields.io/badge/-LinkedIn-3b5998)](https://www.linkedin.com/in/alexanderbolano)
+ [![Medium](https://img.shields.io/badge/-Medium-black)](https://datexland.medium.com/)
+ [![Twitter](https://img.shields.io/badge/-@datexland-1DA1F2)](https://twitter.com/datexland)
+ [![Stackoverflow](https://img.shields.io/badge/-Stackoverflow-ff7c55)](https://stackoverflow.com/users/10906576/alexbonella)
+ 
